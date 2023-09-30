@@ -1,0 +1,82 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #efeff5;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-div {
+  display: flex;
+}
+
+.name-content {
+  margin-right: 5rem;
+  margin-top: 4rem;
+}
+
+.name-content .logo {
+  font-size: 5rem;
+  color: #2065c0;
+}
+
+.name-content p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 1.5rem;
+  width: 450px;
+  height: 400px;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 40px rgba(14, 14, 15, 0.1), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+form input {
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+form .login {
+  border: none;
+  background: #2065c0;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+form a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.8rem;
+}
+
+form hr {
+  margin: 1rem;
+}
+
+form .create-account {
+  border: none;
+  background: #06b909;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #fff;
+  width: 75%;
+  margin: 0 auto;
+}
+
+form .create-account:hover {
+  background: #03ad06;
+}
