@@ -1,0 +1,33 @@
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1; 
+    color: #1c25d6;
+    font-family: YourFontName;
+    font-size: 30px;
+}
+
+.content h1{
+    font-size: 60px;
+}
+
+@font-face {
+    font-family: 'YourFontName';
+    src: url('./assets/BrunoAceSC-Regular.ttf') format('truetype');
+    /* You can add additional font properties here, such as font-weight and font-style */
+}
