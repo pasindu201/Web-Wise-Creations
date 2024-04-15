@@ -12,19 +12,9 @@ After completion of the MCQs, the application provides feedback based on the use
 ## API Endpoints
 
 - `GET /questions/{q_number}`: Get the question.
-- `GET /v2/appointmentOptions`: Retrieve available appointment options with advanced querying.
-- `GET /appointmentSpecialty`: Retrieve available appointment specialties.
-- `GET /bookings`: Retrieve bookings for a user.
-- `GET /bookings/:id`: Retrieve a specific booking by ID.
-- `POST /bookings`: Create a new booking.
-- `GET /jwt`: Generate a JWT for a user.
-- `GET /users`: Retrieve all users.
-- `POST /users`: Create a new user.
-- `GET /users/admin/:email`: Check if a user is an admin.
-- `PUT /users/admin/:id`: Promote a user to admin.
-- `POST /doctors`: Add a new doctor (admin only).
-- `GET /doctors`: Retrieve all doctors (admin only).
-- `DELETE /doctors/:id`: Delete a doctor (admin only).
-- `POST /create-payment-intent`: Create a payment intent for booking.
-- `POST /payments`: Process a payment for a booking.
+- `POST /upload_questions`: Upload list of questions to the database.
+- `POST /updateAnswer`: upload user answer.
+- `GET /result/{userIndex}`: get result of a user.
+- `GET /numberOfQuestions`: get Total number of questions.
+
 
